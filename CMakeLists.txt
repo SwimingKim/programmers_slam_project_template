@@ -49,7 +49,7 @@ include(cmake_files/find_eigen3)
 include(cmake_files/find_image_exts) # ${IMAGE_LIBS} - png, jpeg, tiff, zlib
 include(cmake_files/find_yaml_cpp)
 include(cmake_files/find_opencv)
-include(cmake_files/find_ceres)
+# include(cmake_files/find_ceres)
 include(cmake_files/find_gl) # ${GL_LIBS} - OpenGL, GLUT, GLEW
 include(cmake_files/find_pangolin)
 include(cmake_files/find_gtest)
